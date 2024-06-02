@@ -36,6 +36,7 @@ public class ImageProcessing {
 		try {
 		File outputfile = new File("newbug.jpg");
 		ImageIO.write(img, "jpg", outputfile);
+		System.out.println("Image inverted successfully");
 	}
 		catch(IOException e) {
 			e.printStackTrace();
